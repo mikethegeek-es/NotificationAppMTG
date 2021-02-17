@@ -1,4 +1,4 @@
-package com.mikethegeek.myapplication;
+package com.mikethegeek.notificationappmtg;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.mikethegeek.myapplication", appContext.getPackageName());
+        assertEquals("com.mikethegeek.notificationappmtg", appContext.getPackageName());
     }
 }

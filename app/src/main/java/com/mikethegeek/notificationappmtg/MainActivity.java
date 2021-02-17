@@ -1,4 +1,4 @@
-package com.mikethegeek.myapplication;
+package com.mikethegeek.notificationappmtg;
 
 import androidx.appcompat.app.AppCompatActivity;
 
