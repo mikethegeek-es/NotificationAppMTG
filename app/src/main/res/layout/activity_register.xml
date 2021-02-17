@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorBlanco">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Introduce tus Datos"
+            android:textColor="@color/colorNegro"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:padding="16dp"/>
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/ivAvatarRegister"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/person"
+                    app:civ_border_width="4dp"
+                    app:civ_fill_color="@color/colorBlanco"
+                    app:civ_border_color="@color/colorPrimary"/>
+
+        <EditText
+            android:paddingLeft="15dp"
+            android:id="@+id/txtRegisterEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="@color/material_black"
+            android:inputType="textPersonName"
+            android:hint="Introduce tu e-mail"
+            android:layout_marginBottom="10dp"/>
+        <EditText
+            android:paddingLeft="15dp"
+            android:id="@+id/txtRegisterUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="@color/material_black"
+            android:inputType="textPersonName"
+            android:hint="Introduce tu nombre completo"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:paddingLeft="15dp"
+
+            android:id="@+id/txtRegisterPasswd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="@color/material_black"
+            android:inputType="textPassword"
+            android:hint="Introduce tu contraseña"
+            android:layout_marginBottom="10dp"/>
+        <EditText
+            android:paddingLeft="15dp"
+
+            android:id="@+id/txtRegisterConfirmPasswd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="@color/material_black"
+            android:inputType="textPassword"
+            android:hint="Repite tu contraseña"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/txtErrorRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="#9E0808"
+            android:visibility="invisible" />
+
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REGISTRARSE"
+            android:textColor="@color/colorBlanco"
+            android:background="@color/colorPrimary"/>
+
+        <!--        <Button-->
+        <!--            android:id="@+id/btnLogInGoogle"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:background="#F4F4F4"-->
+        <!--            android:drawableStart="@drawable/googleg_standard_color_18"-->
+
+        <!--            android:paddingLeft="20dp"-->
+        <!--            android:text="Inicia Sesión con Google" />-->
+        <TextView
+            android:layout_marginTop="5dp"
+
+            android:id="@+id/txtGoToLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/material_black"
+            android:textStyle="bold"
+            android:text="Ya tengo una cuenta" />
+
+    </LinearLayout>
+
+</FrameLayout>
